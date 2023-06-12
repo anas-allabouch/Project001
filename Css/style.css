@@ -4,6 +4,13 @@
     font-family: sans-serif;
 }
 
+body {
+    background: url(Img/background.jpg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 /* Start Header */
 
 .header {
@@ -44,7 +51,7 @@
     position: relative;
     left: 68em;
     border-radius: 1em;
-
+    display: inline;
 }
 
 .login-btn:hover {
@@ -53,3 +60,46 @@
 }
 
 /* End Header */
+
+
+
+/* Start Wrapper */
+
+.wrapper {
+    flex: 1;
+}
+
+/* End Wrapper */
+
+
+
+/* Start Footer */
+
+.footer {
+    background-color: black;
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+
+.media {
+    display: inline;
+}
+
+.media img {
+    background-color: aliceblue;
+    position: relative;
+    bottom: 10px;
+    padding: 4px;
+    border-radius: 100%;
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 2px solid black;
+}
+
+.media img:hover {
+    filter: invert(100%);
+    border: 2px solid black;
+}
+
+/* End Footer */
